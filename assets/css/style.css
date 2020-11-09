@@ -1,0 +1,349 @@
+ 
+   /*********************************/
+  /***********1.GLOBAL CSS*********/
+ /********************************/
+ 
+body {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    background: url('../images/bg.png') no-repeat scroll center center / 100% 100%;
+}
+html {
+    font-size: 62.5%;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.section-title h2{ 
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.section-padding{
+  padding: 8rem 0
+}
+.btn-sty {
+  text-transform: capitalize;
+  padding: 0.8rem 3rem;
+  background: #525FFB;
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: 700;
+  border: 0.1rem solid transparent;
+  transition: 0.3s;
+}
+.btn-sty:hover{
+  border: 0.1rem solid #525FFB;
+  background: transparent;
+  color: #525FFB;
+}
+
+   /*********************************/
+  /***********2.HEADER CSS**********/
+ /********************************/
+
+.header-area {
+  padding: 2rem 0;
+}
+.logo a img {
+  width: 36%;
+}
+.menu {
+  text-align: right;
+}
+.menu a {
+  text-transform: capitalize;
+  color: #525FFB;
+  border: 0.1rem solid #525FFB;
+  padding: 0.5rem 2rem;
+  border-radius: 3rem;
+  font-weight: 700; 
+  transition: 0.3s;
+}
+.menu a:hover{
+  background: #525FFB;
+  border: 0.1rem solid transparent;
+  color: #fff;
+}
+.banner-left {
+  padding: 12rem 0;
+}
+.banner-right {
+  width: 100%;
+  height: 52rem;
+}
+.banner-right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-left h1 {
+  color: ;
+  color: #1E1C24;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.banner-left p {
+  color: #B1AAAA;
+  font-weight: 700;
+  margin: 2rem 0 5rem 0;
+  max-width: 78%;
+}
+.work-search,
+.banner-search {
+  display: flex;
+  align-items: center;
+}
+
+.work-search [type="search"],
+.banner-search [type="search"] {
+  padding: 0.8rem;
+  border: 0.1rem solid #EBEBEB;
+  border-radius: 2rem;
+  color: #1E1C24;
+  opacity: 0.50;
+  transition: 0.2s;
+}
+.work-search [type="search"]:focus,
+.banner-search [type="search"]:focus{
+  opacity: 100%;
+}
+
+
+
+
+   /*********************************/
+  /***********3.FEATURE CSS**********/
+ /********************************/
+
+
+
+
+.feature-items {
+  text-align: center;
+  background: #525FFB;
+  padding: 4rem 0;
+  border-radius: 1rem;
+  margin-bottom: 10rem;
+}
+.feature-area .row .col-md-4:nth-child(1) .feature-items .feature-content h3 ,
+.feature-area .row .col-md-4:nth-child(1) .feature-items .feature-content p{
+  color: #fff;
+}
+.feature-area .row .col-md-4:nth-child(2) .feature-items{
+  background: #E9F0FF;
+  transform: translateY(100px);
+}
+.feature-area .row .col-md-4:nth-child(3) .feature-items{
+  background: #FFE7AA;
+  transform: translateY(40px);
+}
+.feature-area .row .col-md-4{
+  flex:0 0 30%;
+}
+.feature-img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.feature-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.feature-content h3 {
+  color: #1E1C24;
+}
+.feature-content p { 
+  color: #1E1C24;  
+  max-width: 80%;
+  margin: 3rem auto 0 auto;
+}
+
+
+
+   /*********************************/
+  /***********4.TASK CSS**********/
+ /********************************/
+
+.team-right,
+.task-left {
+  width: 100%;
+  height: auto;
+}
+.team-right img,
+.task-left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+.team-left p,
+.task-right p {
+  color: #B1AAAA;
+  margin: 3rem 0 5rem 0;
+  max-width: 86%;
+}
+
+   /*********************************/
+  /***********5.TEAM CSS**********/
+ /********************************/
+
+
+.team-img {
+  width: 35%;
+  height: auto;
+}
+.team-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+   /*********************************/
+  /***********5.TEAM CSS**********/
+ /********************************/
+ 
+
+
+.service{
+  position: relative;
+}
+.service-area .section-title h2 { 
+   margin-bottom: 0; 
+}
+
+.service h1 {
+  font-size: 8rem;
+  text-align: center;
+  padding: 16rem 0;
+  color: #525FFB;
+  font-weight: 800;
+}
+.serive-item-1 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.serive-item-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+} 
+
+
+.serive-item-2 {
+  width: 5%;
+  height: auto;
+  position: absolute;
+  top: 44%;
+  left: 23%;
+}
+.serive-item-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.serive-item-3 {
+  width: 3%;
+  height: auto;
+  position: absolute;
+  bottom: 0%;
+  left: 5%;
+}
+.serive-item-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.serive-item-4 {
+  width: 8%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.serive-item-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.serive-item-5 {
+  width: 2%;
+  height: auto;
+  position: absolute;
+  top: 36%;
+  right: 29%;
+}
+.serive-item-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.serive-item-6 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.serive-item-6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+
+
+   /*********************************/
+  /***********6.WORK CSS**********/
+ /********************************/
+
+
+.work{
+  text-align: center;
+}
+.work-search{
+  justify-content: center;
+  margin-top: 5rem
+}
+.work p { 
+  color: #1E1C24;
+  font-size: 2rem;
+  font-weight: 100;
+  max-width: 28%;
+  margin: 1.5rem auto;
+}
